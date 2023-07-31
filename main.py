@@ -20,7 +20,7 @@ if os.path.exists(project_path):
     sys.exit(1)
 
 os.mkdir(project_path)
-print(project_path)
+
 with open(f"{path}/.pylintrc", "r") as f:
     pylintsettings = f.read()
 
